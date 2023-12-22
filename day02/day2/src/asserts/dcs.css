@@ -1,0 +1,263 @@
+.dashboard-container {
+    display: flex;
+    background-color: gray;
+  }
+  
+  .slider {
+    position: sticky;
+    top: 0;
+    width: 70px;
+    height: 100vh;
+    padding: 0 1.7rem;
+    overflow: hidden;
+    margin-right: 30px;
+    color: #fff;
+    transition: all 0.5s linear;
+    background: #8c71d6;
+  }
+  
+  .slider:hover {
+    width: 390px;
+    transition: 0.5s;
+  }
+
+  .logo{
+    height:80px;
+    padding:16px;
+}
+.menu{
+    height: 88%;
+    position: relative;
+    list-style: none;
+    padding: 0%;
+}
+.menu li{
+    padding: 1rem;
+    margin:8px 0;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+.menu li:hover,
+.active{
+    background-color: #e0e0e058;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    font-size: 14px;
+    gap:1.5rem;
+}
+.menu a span{
+    overflow: hidden;
+    font-size: 23px;
+}
+.menu a i{
+    font-size: 1.7rem;
+}
+.main{
+    position:relative;
+    background-color:rgba(112, 110, 110, 0.329);
+    width: 85%;
+    padding: 1rem;
+}
+.header img{
+    width:70px;
+    height:70px;
+    margin-right: 35px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.header{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px 2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.title{
+    color:#8c71d6;
+    font-size: 23px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap:1;
+}
+.search{
+    background:rgb(237,237,237);
+    border-radius: 15px;
+    display: flex;
+    gap:6px;
+    align-items: center;
+    padding: 4px 12px;
+    margin-right: 25px;
+}
+.search input{
+    background: transparent;
+    padding: 8px;
+    outline: none;
+    height: 4vh;
+    border: 0px solid transparent;
+}
+.search i{
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition:all 0.5s ease-in-out;
+}
+.search i:hover{
+    transform: scale(1.1);
+}
+.card{
+    border-radius: 10px;
+    background-color: #fff;
+    width: 69.2%;
+    height:max-content;
+    padding: 10px 0px 20px 17px;
+}
+.card div{
+    display: flex;
+    width:90%;
+    height: 30vh;
+    border-radius: 10px;
+    background-color:#e0e0e058;
+    padding: 13px;
+    margin:35px 60px 0px 20px;
+    border:1px solid gray;
+}
+.gridimg1{
+    width: 12vw;
+    height: 94%;
+}
+.footer{
+    padding: 3rem;
+    border-radius: 10px;
+    height:10vh;
+    width:97%;
+    margin-top: 40px;
+    background-color: #fff;
+}
+.des{
+    float: right;
+    background-color: #fff;
+    height: 100vh;
+    width:26.6vw;
+    border-radius: 10px;
+    position:absolute;
+    top:12%;
+    left:72%;
+}
+.chead{
+    margin-left: 325px;
+    font-size: 23px;
+    width:1000vw;
+    position:absolute;
+}
+.card i {
+    font-size: 2rem;
+    position: relative;
+    left:-20%;
+    top:32%;
+    color: gray;
+}
+.num{
+    font-size:23px;
+    width: 100vw;
+    position: relative;
+    left:0%;
+    top:29%;
+}
+.workm{
+    width:60vw;
+    font-size:23px;
+    position: relative;
+    left:-30%;
+    top:46%;
+    text-align: justify;
+}
+.workm i{
+    font-size: 18px;
+    margin-left: 40%;
+}
+.ratc{
+    font-size:23px;
+    position: relative;
+    left:10%;
+    top:0%;
+}
+.service{
+    margin: 0;
+    position:relative;
+    font-size:23px;
+    font-weight: 600;
+    padding-bottom: 100px;
+    margin-top:0;
+    color: #8c71d6;
+}
+.viewmorec{
+    font-size: 21px;
+    border-radius: 122px;
+    margin-top: 32px;
+    font-weight: 600;
+    border: 1px solid #fff;
+    color: #fff;
+    outline: none;
+    background-color:#8c71d6;
+    height: 5%;
+    width: 11%;
+    position: relative;
+    left:46%;
+    transition: 0.3s ease-in-out;
+}
+.viewmorec:hover{
+    transform: scale(1.2);
+}
+.des img{
+    width:70%;
+    border:1px solid gray;
+    margin-top: 60px;
+    margin-left: 80px;
+    height: 34%;
+}
+.cbutton{
+    height: 22%;
+    width:25%;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    left:-8%;
+    top:57%;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: #8c71d6;
+    transition: 0.3s ease-in-out;
+}
+.cbutton:hover{
+    transform: scale(1.2);
+}
+.socialmed{
+    position: relative;
+    top:48%;
+    left:40%;
+}
+.socialmed img{
+    border-radius: 5%;
+    margin-left: 50px;
+    position: relative;
+    width:3%;
+    border: 1px solid black;
+    height:3%;
+    border-radius: 53%;
+    transition:all ease-out 0.3s ;
+}
+
+.socialmed img:hover{
+    transform: scale(1.4);
+}
+  
+  /* Add the rest of your styles here */
+  

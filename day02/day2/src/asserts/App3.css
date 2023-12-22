@@ -1,0 +1,22 @@
+body{
+    background-image: url('images/road.jpg');
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bikeimg{
+    width:20%;
+    height:40%;
+    position:absolute;
+    left:0;
+    bottom: 0%;
+    animation:anib 10s infinite;
+}
+@keyframes anib {
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(100vw);
+    }
+}

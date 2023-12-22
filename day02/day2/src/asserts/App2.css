@@ -1,0 +1,133 @@
+body {
+  /*  background:rgb(112, 106, 108);*/
+  background-image: url('/src/images/bc.png');
+  font-family: sans-serif;
+  }
+  .imf{
+    width:40vw;
+    height:93vh;
+    background-color: aliceblue;
+    position: absolute;
+    left:14%;
+    top:4%;
+  }
+  .head2{
+    margin-left: 50px;
+    position: relative;
+    top:3%;
+  }
+  .fir1{
+      margin-top: 66px;
+      height: 60%;
+      width:80%;
+  }
+
+  .img2{
+    position:absolute;
+    left:21%;
+    top:10%;
+    height: 40%;
+    width:18%;
+  }
+  .form2{
+    width:36%;
+    height:93%;
+    background-color: aliceblue;
+    position: absolute;
+    left:53%;
+    top:4%;
+    border-radius: 0px;
+  }
+  .input2{
+    width:95%;
+    height: 12%;
+    font-size: 18px;
+    padding-left: 15px;
+    margin-left: 42px;
+    margin-top:18px;
+    border:0.5px solid rgb(199, 198, 198);
+    transition: 0.3s ease-in-out;
+  }
+  .input2:hover{
+    border: 1px solid rgb(104, 103, 103);
+    transform: scale(0.96);
+  }
+  .imf .msg{
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 15px;
+    top:56%;
+    left:10%;
+    color: rgb(80, 81, 82);
+
+  }
+  a{
+    text-decoration: none;
+    color: rgb(28, 41, 114);
+  }
+  .uname1{
+    font-weight: 600;
+    font-size: 21px;
+    margin-left: 13%;
+    position: relative;
+    top:2%;
+    left:-4%;
+  }
+  .button2{
+    font-size: 21px;
+    font-weight: 600;
+    color:#fff;
+    width:98%;
+    height:12%;
+    background-color: rgb(133, 85, 177);
+    border-radius: 2px;
+    border:1px solid grey;
+    margin-top: 5%;
+    margin-left: 44px;
+    transition: 0.3s ease-in-out;
+  }
+  .button2:hover{
+    transform: scale(0.96);
+  }
+  .forget{
+    color:rgb(56, 56, 209);
+    font-weight: 550;
+    margin-top: 8%;
+    margin-left: 40%;
+  }
+  .para2{
+    font-size: 21px;
+    margin-left: 24%;
+  }
+  .success {
+    position: absolute;
+    right: 1%;
+    top: 0;
+    padding: 25px 0 0 20px;
+    height: 12vh;
+    width: 18%;
+  }
+  
+  /*.success{
+    position: absolute;
+    right:1%;
+    top:0;
+    padding: 25px 0 0 20px;
+    height: 12vh;
+    width: 18%;
+    /*background-color: #fff;
+    border: 1px solid gray;
+  }
+  .success ::after{
+    background-color: #fff;
+    border: 1px solid gray;
+  }
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }*/
+  

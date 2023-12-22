@@ -1,0 +1,132 @@
+body {
+  /*background-color:rgb(112, 106, 108);*/
+  background-image: url('/src/images/bc.png');
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h2{
+  margin-left: 50px;
+  position: relative;
+  top:3%;
+}
+.fir{
+    margin-top: 78px;
+    height: 70%;
+    width:80%;
+}
+.dim{
+  width:50%;
+  height: 100%;
+}
+.limg{
+  position:absolute;
+  left:21%;
+  top:13%;
+  height: 70vh;
+  width:29%;
+}
+.sd{
+  text-decoration: none;
+  color: rgb(55, 99, 167);
+}
+form{
+  width:30%;
+  height:70%;
+  background-color: aliceblue;
+  position: absolute;
+  left:50%;
+  top:13%;
+  border-radius: 0px;
+}
+.linput{
+  width:95%;
+  height: 12%;
+  font-size: 18px;
+  padding-left: 15px;
+  margin-left: 42px;
+  margin-top:20px;
+  border:0.5px solid rgb(199, 198, 198);
+  transition: 0.3s ease-in-out;
+}
+.linput:hover{
+  border: 1px solid rgb(104, 103, 103);
+  transform:scale(0.96);
+}
+
+.uname{
+  font-size: 21px;
+  position:relative;
+  margin-left: 47px;
+  font-weight: 600;
+}
+.password{
+  font-weight:600;
+  font-size: 21px;
+  position: relative;
+  left:10%;
+  top:2.5%;
+}
+.buttonl{
+  font-size: 21px;
+  font-weight: 600;
+  color:#fff;
+  width:95%;
+  height:12%;
+  background-color: rgb(133, 85, 177);
+  border-radius: 5%;
+  border:1px solid grey;
+  margin-top: 12%;
+  margin-left: 48px;
+  transition: 0.3s ease-in-out;
+}
+.buttonl:hover{
+  transform: scale(0.96);
+}
+.forget{
+  color:rgb(56, 56, 209);
+  font-weight: 600;
+  font-size: 21px;
+  margin-left: 40%;
+}
+.success {
+  position: absolute;
+  right: 1%;
+  top: 0;
+  padding: 25px 0 0 20px;
+  height: 12vh;
+  width: 18%;
+}
+.p1{
+  position:fixed;
+  top:73%;
+  margin-left: 85px;
+  margin-top: 0%;
+  font-weight:500 ;
+  font-size: 23px;
+}
+
+
+
+/*.success{
+  position: absolute;
+  right:1%;
+  top:0;
+  padding: 25px 0 0 20px;
+  height: 12vh;
+  width: 18%;
+  /*background-color: #fff;
+  border: 1px solid gray;
+}
+.success ::after{
+  background-color: #fff;
+  border: 1px solid gray;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
