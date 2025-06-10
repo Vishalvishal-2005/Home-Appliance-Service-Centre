@@ -17,6 +17,9 @@ import DashBoard from './components/Dashboard.jsx';
 import About from './components/About.jsx';
 import{BrowserRouter as Router,Route,Routes} from 'react-router-dom';
 
+/**
+ * Defines the main application component with routing.
+ */
 function App(){
 return(
      <div>
