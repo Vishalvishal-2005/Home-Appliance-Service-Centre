@@ -18,6 +18,9 @@ import ln from '../images/linkedin.png';
 
 import '../asserts/dcs.css';
 import { positions } from '@mui/system';
+/**
+ * Renders a dashboard component with a sliding image carousel and service cards.
+ */
 const Dashboard = () => {
 
   const [imageIndex, setImageIndex] = useState(0);
