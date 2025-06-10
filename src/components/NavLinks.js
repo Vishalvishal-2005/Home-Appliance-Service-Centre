@@ -2,6 +2,17 @@
 import React from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 
+/**
+ * Renders navigation links based on user login status.
+ *
+ * This component conditionally displays navigation links and a logout button if the user is logged in.
+ * It uses React Router's `NavLink` to handle active link styling and transitions.
+ * The `handleLogout` function calls the provided `onLogout` callback and navigates to the home page.
+ *
+ * @param {Object} props - Component properties.
+ * @param {boolean} props.isLoggedIn - Indicates if the user is logged in.
+ * @param {function} props.onLogout - Callback function for handling logout.
+ */
 export default function NavLinks({ isLoggedIn, onLogout }) {
   const navigate = useNavigate();
 
@@ -22,6 +33,9 @@ export default function NavLinks({ isLoggedIn, onLogout }) {
     transform: 'scale(1.05)',
   };
 
+  /**
+   * Handles user logout by invoking onLogout and navigating to '/'.
+   */
   const handleLogout = () => {
     onLogout();
     navigate('/');
