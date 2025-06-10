@@ -1,6 +1,22 @@
 import React, { useState, useEffect } from 'react';
 
+/**
+ * A React component that provides a theme toggle button.
+ *
+ * This component manages the theme state by reading from local storage and media queries.
+ * It sets the theme on the document element data attribute and updates the local storage when toggled.
+ * The button changes its label and icon based on the current theme.
+ *
+ * @returns A React functional component rendering a theme toggle button.
+ */
 export default function ThemeToggle() {
+  /**
+   * Determines the initial theme to be applied based on stored preferences and system settings.
+   *
+   * The function first checks if a theme is stored in `localStorage`. If the stored theme is either 'dark' or 'light',
+   * it returns that value. If no preference is found, it checks the user's system color scheme using media queries.
+   * If the system prefers dark mode, it returns 'dark'; otherwise, it defaults to 'light'.
+   */
   const getInitialTheme = () => {
     const stored = localStorage.getItem('theme');
     if (stored === 'dark' || stored === 'light') return stored;
@@ -19,6 +35,9 @@ export default function ThemeToggle() {
     localStorage.setItem('theme', theme);
   }, [theme]);
 
+  /**
+   * Toggles the theme between 'dark' and 'light'.
+   */
   const toggle = () => setTheme(theme === 'dark' ? 'light' : 'dark');
 
   return (
