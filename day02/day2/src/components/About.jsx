@@ -1,5 +1,8 @@
 import React from "react";
 import '../asserts/App4.css';
+/**
+ * Renders the About page component with company details, core values, and technician certifications.
+ */
 const About=()=>{
     return(
         <div className="aboutcontainer">

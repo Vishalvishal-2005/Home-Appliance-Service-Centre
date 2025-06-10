@@ -62,6 +62,9 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
+/**
+ * Renders a search app bar with an icon button, title, and search input.
+ */
 export default function SearchAppBar() {
   return (
     <div>
