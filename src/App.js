@@ -59,6 +59,9 @@ import Profile from './pages/Profile';
 
 import { getCurrentUser, clearCurrentUser, updateNavVisibility } from './utils/localStorage';
 
+/**
+ * Main application component that manages user authentication and routing.
+ */
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
@@ -68,6 +71,9 @@ const App = () => {
     updateNavVisibility(!!user);
   }, []);
 
+  /**
+   * Handles user logout by clearing current user, setting login status to false, and updating navigation visibility.
+   */
   const handleLogout = () => {
     clearCurrentUser();
     setIsLoggedIn(false);
