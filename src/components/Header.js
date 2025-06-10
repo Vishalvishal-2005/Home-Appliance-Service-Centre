@@ -2,6 +2,9 @@ import React from 'react';
 import NavLinks from './NavLinks';
 import ThemeToggle from './ThemeToggle';
 
+/**
+ * Renders the header component with navigation and theme toggle.
+ */
 export default function Header({ isLoggedIn, onLogout }) {
   return (
     <header style={styles.header}>
